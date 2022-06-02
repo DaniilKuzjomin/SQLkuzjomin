@@ -1,3 +1,8 @@
-1. Назови 5 ограничений БД
+﻿1. Назови 5 ограничений БД
+Primary Key, Foreign Key, Unique, Check, Not Null
+
 2. Исправь ошибку - nimiID int primary key identity()
+nimiID int primary key identity(1,1)
+
 3. Как назначить роли на изменение таблицы?
+GRANT CREATE TABLE TO rool;
